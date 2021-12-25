@@ -7,4 +7,7 @@ data class Contacts(val id: String,
                     val address : String,
                     val gender : String,
                     val phone : Phone)
-data class Phone(val mobile : String)
+data class Phone(val mobile : String,val feature: String,var age: String)
+
+
+
